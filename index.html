@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- For Nav -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h2> <span style="color:#FFFFFF;">  CONTENTS </h2>
+          
+        <a href="More.html" > About me</a>
+        <a href="#contact">Contacts</a>
+    </div>
+
+    <!-- For Intro -->
+    <div id="Head">
+        <div class="container">
+        <div class="jumbotron">
+        <div class="card">
+        <img src="main.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+        <h1>John Mark Linasan Javier</h1>
+        <h2> (Kano)</h2>
+        <p>Diligent, Competitive, A student who explores every possible field to gain new knowledge and experience. </p>
+        <p> <span style="   font-size:20px;cursor:pointer" onclick="openNav()">&#10155    More about me</p>
+      </div>
+      </div>
+
+
+      <!-- Content pare -->
+      <main>
+        <div class="container">          
+        <div class="jumbotron">
+
+        <!-- About me -->
+   <section id="Overview" class="section scrollspy">
+        <h3 class="page-title ">Overview</h3>
+      
+
+        <p>
+       A student currently studying at ACLC College of Taytay, studied SQL, HTML, CSS , JAVA, and JavaScript.
+          Aiming to be Business Analyst or Web Developer in the near future.
+        </p>
+        <p>
+            <ul>
+                <li><b>Languages:</b> Java, JavaScript, C, C++, HTML/CSS</li>
+                <li><b>Databases:</b> MySQL</li>
+                <li><b>Frameworks:</b>  Bootstrap </li>
+            </ul>
+        
+        </p>
+         <p>
+        Looking for an opportunity to work in a position that i can use my skills in Information Systems, which can hone my skills for professional development and self development. 
+        </p>
+        </div>
+        </div>
+        <div class="container">          
+          <div class="card">
+  
+            <ul>
+                <li>
+                  Telemarketing Agent at <b>Aloha Outsource</b>
+                
+                </li>
+  
+                <li>
+                Studied at <b> ACLC Antipolo</b>
+                </li>
+  
+                <li>
+                  Lives in <b> Angono, Rizal</b>
+                  </li>   
+                  
+                  <li>
+                     Works at <b> Krusty Crab</b>
+                     <br>
+                     Chef
+                    </li>    
+            
+  
+            </ul>
+  
+          </div>
+          </div>
+        </div>
+        
+        </div>
+        
+        </div>
+
+        
+  </section>
+
+ 
+
+      </main>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+          document.body.style.backgroundColor = "white";
+        }
+        </script>
+
+    </body>
+
+
+
+    <footer id="footer">
+      <section id="contact" class="section scrollspy full-height">
+        <div id="contacts">
+        <div class="container">
+           <p>
+            <ul>
+                <h3>Contacts</h3>
+           
+                <a aria-label="Call Javier" data-position="top" data-tooltip="Call Javier"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+                aria-label="Call Javier">+63696154883</a></a>
+        
+                 <a aria-label="Email Javier" href="mailto:goldjeyem@gmail.com" target="_blank" data-position="top" 
+                data-tooltip="Email Javier" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+    
+                <i class="fa fa-envelope"></i><a aria-label="Email Javier" href="mailto:goldjeyem@gmail.com" 
+                   class="hoverline">goldjeyem@gmail.com</a></a>
+
+                <i class="fa fa-facebook"></i><a href="https://www.facebook.com/Gol.D.Jeyem/"
+                class="hoverline">John Mark Linasan Javier</a></a>
+
+            </ul>
+           </p>  
+        </div>
+      </section>
+
+    </footer>
+    </html>
